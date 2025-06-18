@@ -24,6 +24,12 @@ incre.addEventListener("click", () =>{
         display.style.color = "red"
 
        
+         icon1.addEventListener("mouseover", () => {
+             icon1.style.scale = "2"
+        })
+          icon1.addEventListener("mouseout", () => {
+             icon1.innerHTML = "👌"
+        })
     }else if(start == 20){
         icon1.innerHTML = "🙌"
     }else if(start == 30){
@@ -58,10 +64,11 @@ decr.addEventListener("click", () =>{
      if(start == 10){
           icon1.innerHTML = "👌"
         display.style.color = "red"
-
        
+         
     }else if(start == 20){
         icon1.innerHTML = "🙌"
+        
     }else if(start == 30){
         icon1.innerHTML = "✌️"
     }else if(start == 40){
